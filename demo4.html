@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            margin: 50px 200px;
+            display: flex;
+            height: 700px;
+            border: 1px solid green;
+            /*flex-wrap: wrap;*/
+            justify-content: space-around;
+            align-items: baseline;
+        }
+        .block{
+            min-height:30px;
+            margin-left: 10px;
+            margin-top: 20px;
+            width: 200px;
+            padding: 15px;
+            text-align: justify;
+            color: white;
+            font-size:20px;
+            
+        }
+        .b1{
+            background-color: blue;
+            font-sie: 30px
+        }
+        .b2{
+            background-color: red;
+            font-size: 50px
+        }
+        .b3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="block b1" id="id1">Float1</div>
+        <div class="block b2" id="id2">Float2</div>
+        <div class="block b3" id="id3">Float3</div>
+        <div class="block b1" id="id4">Float4</div>
+        <div class="block b2" id="id5">Float5</div>
+        <!--<div class="block b3" id="id6">Float6</div>
+        <div class="block b1" id="id7">Float7</div>
+        <div class="block b2" id="id8">Float8</div>
+        <div class="block b3" id="id9">Float9</div>-->
+    </div>
+    <div style="min-height: 400px"></div>
+</body>
+</html>
